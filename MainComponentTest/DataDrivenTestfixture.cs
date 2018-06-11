@@ -12,12 +12,10 @@ namespace MainComponentTest
     public class DataDrivenTestFixture
     {
         int _x;
-
         public DataDrivenTestFixture(int x)
         {
             _x = x;
         }
-
         [Test]
         public void TestArguments()
         {
